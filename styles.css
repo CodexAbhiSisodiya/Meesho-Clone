@@ -1,0 +1,533 @@
+@font-face {
+    font-family: "MyFont";
+    src: url("assets/fonts/MierA-Book.ttf") format("truetype");
+}
+
+*::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    width: 100vw;
+    font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book";
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    text-align: left;
+}
+
+header {
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    top: 0px;
+    height: 126px;
+
+}
+
+.header_container_one {
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 64px;
+    gap: 5px;
+    border-bottom: 1px solid rgb(208, 208, 208);
+}
+
+.header_cont_box1 {
+    max-width: 1920px;
+    width: 60%;
+    padding: 0px 64px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 35px;
+}
+
+.header_cont_box2 {
+    display: flex;
+    gap: 5px;
+    width: 40%;
+    flex: 6 1 0%;
+    flex-direction: row;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+}
+
+.messhoTitle {
+    width: 130px;
+    aspect-ratio: auto 156 / 36;
+    height: 50px;
+    aspect-ratio: auto 156 / 36;
+    overflow: clip;
+}
+
+.Search {
+    width: 30px;
+    height: 30px;
+}
+
+.header_cont_box1 {
+    display: flex;
+    align-items: center;
+}
+
+header h4 {
+    color: rgb(57, 57, 57);
+    font-family: "MyFont";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.SearchBar {
+    width: 250px;
+    height: 50.2px;
+    border: 1.5px solid rgb(113, 113, 113);
+    display: flex;
+    align-items: center;
+    flex: 1;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+.SearchBar input {
+    width: 95%;
+    height: 21.6px;
+    border: none;
+    margin-left: 5px;
+    outline: none;
+    font-size: 16px;
+}
+
+.SearchBar input::placeholder {
+    font-size: 16px;
+}
+
+.Becom {
+    margin: 0px 18px;
+    position: relative;
+    height: 100%;
+    -webkit-box-align: center;
+    min-width: 180px;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 2px 2px 0px 0px;
+    flex-direction: row;
+    border-bottom: 3px solid rgb(255, 255, 255);
+}
+
+.investor {
+    width: 200px;
+    margin: 0px 18px;
+    position: relative;
+    height: 100%;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 2px 2px 0px 0px;
+    flex-direction: row;
+    border-bottom: 3px solid rgb(255, 255, 255);
+
+}
+
+.profile {
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(75, 75, 75);
+    margin: 0px 0px 0px 24px;
+}
+
+.cart {
+    width: 81px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(75, 75, 75);
+}
+
+.line {
+    width: 2px;
+    height: 40px;
+    background-color: rgb(196, 196, 196);
+}
+
+header i {
+    font-size: 20px;
+    color: rgb(137, 137, 137);
+}
+
+.header-container_two {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    height: 52px;
+}
+
+.header-container_two a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.Mega {
+    width: 100%;
+    height: 534px;
+    background-image: url(assets/Photos/MegaBlockBusterSale.webp);
+    margin-top: 130px;
+    position: relative;
+
+}
+
+.megaContent {
+    top: 120px;
+    position: absolute;
+    right: 70px;
+}
+
+.megaContent h1 {
+    color: white;
+    font-size: 45px;
+}
+
+.megaContent a {
+    text-decoration: none;
+    margin-top: 50px;
+    background-color: white;
+    padding: 20px 40px;
+    font-weight: 500;
+    color: rgb(80, 7, 76);
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+.Line_con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    height: 70px;
+    background-color: rgb(254, 237, 239);
+}
+
+.LI {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    background-color: white;
+    border: 1px solid rgb(184, 43, 67);
+    border-radius: 5px;
+    width: 100%;
+
+}
+
+.L1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    font-size: 14px;
+    margin: 5px;
+}
+
+.L1 i {
+    color: rgb(129, 11, 88);
+}
+
+.SaleContainer {
+    height: 315px;
+    padding: 40px 64px;
+}
+
+.SaleContent {
+    display: flex;
+    width: 100%;
+    overflow: scroll;
+    gap: 20px;
+}
+
+.SaleContent img {
+    width: 148px;
+    height: 219px;
+}
+
+.gold {
+    background-image: url(assets/Photos/Photo.webp);
+    width: 100vw;
+    height: 620px;
+    background-repeat: no-repeat;
+    border: 1px solid black;
+    background-size: cover;
+    position: relative;
+}
+
+.goldContainer {
+    position: absolute;
+    top: 93px;
+    right: 176px;
+    width: 370px;
+    height: 460px;
+    /* background-color: yellow; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.gold a {
+    border: 1px solid rgb(255, 209, 130);
+    display: block;
+    position: absolute;
+    width: 250px;
+    text-align: center;
+    background: rgb(63, 31, 17);
+    color: rgb(255, 209, 130);
+    padding: 15px;
+    text-decoration: none;
+    left: 290px;
+    font-size: 30px;
+    bottom: 40px;
+    border-radius: 5px;
+}
+
+
+
+
+.Brands {
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(182, 182, 182);
+    height: 156px;
+}
+
+.brand {
+    display: flex;
+    animation: scroll-left 120s linear infinite;
+    gap: 10px;
+}
+
+.brand a {
+    min-width: 200px;
+    height: 100px;
+    margin-right: 20px;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    font-size: 24px;
+    flex-shrink: 0;
+}
+
+.brand a img {
+    width: 160px;
+    height: 80px;
+    border-radius: 15px;
+
+}
+
+/* Animation */
+@keyframes scroll-left {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+        /* 50% because we repeated boxes */
+    }
+
+}
+
+.fastival {
+    position: relative;
+    width: 100vw;
+    height: 421px;
+    background-image: url(assets/Photos/Fastival.webp);
+}
+
+.dwnld {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 50px;
+    font-size: 24px;
+    left: 180px;
+    padding: 5px;
+    position: absolute;
+    font-weight: bold;
+    color: rgb(81, 0, 80);
+    font-size: 22px;
+
+}
+
+.fvlContent {
+    display: flex;
+    gap: 30px;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+
+
+
+.fstvl {
+    display: flex;
+    flex-direction: column;
+}
+
+.fstvl img {
+    width: 180px;
+    height: 257px;
+}
+
+.fstvl a {
+    width: 180px;
+    height: 41px;
+    background-color: white;
+    border-radius: 5px;
+    display: block;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: rgb(81, 0, 80);
+    font-size: 22px;
+}
+
+.P4U-Container {
+    display: flex;
+    width: 100vw;
+    padding: 25px;
+    /* background-color: yellow; */
+}
+
+.proforu {
+    padding: 25px;
+}
+
+.P4UContent1 {
+    width: 27%;
+    /* background-color: green; */
+    padding: 25px 35px;
+}
+
+.sortby {
+    border: 1px solid rgb(85, 85, 85);
+    padding: 5px;
+    width: 300px;
+}
+
+.sortby select {
+    width: 220px;
+    height: 30px;
+    border: none;
+}
+
+.fltr-container {
+    line-height: 75px;
+}
+
+.P4UContent2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 25px;
+}
+
+.pst {
+    border: 1px solid rgb(183, 183, 183);
+    width: 230px;
+    height: 400px;
+    padding: 15px;
+    padding-top: 0;
+    border-radius: 5px;
+}
+
+.MoreAbt {
+    width: 90vw;
+    padding: 25px;
+    background-color: white;
+    margin: auto;
+}
+
+.MoreAbt p,
+h3,
+h4 {
+    margin: 10px;
+}
+
+.abtus{
+    background-color: rgb(245, 245, 245);
+    
+}
+
+.MoreAbt a:last-child {
+  border-right: none; /* last element ke baad line na aaye */
+}
+.MoreAbt a {
+    color: rgb(180, 0, 120);
+    border-right: 1px solid black;
+    font-size: 13px;
+    padding: 5px;
+}
+.firsabt{
+     width: 90vw;
+    padding: 25px;
+    margin: auto;
+    display: flex;
+
+}
+.abtsec{
+    max-width: 600px;
+    padding: 15px;
+
+}
+.abtsec a{
+    color: rgb(114, 114, 114);
+}
+.abtsec p{
+    font-size: 15px;
+     color: rgb(114, 114, 114);
+}
+.abtsec h2{
+    font-weight: 200;
+}
